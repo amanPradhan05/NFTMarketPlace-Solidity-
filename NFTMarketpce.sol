@@ -96,3 +96,4 @@ function withdrawNFT(uint256 _tokenId) public {
 
     nft.transfer(owner, _tokenId);
 }
+}
